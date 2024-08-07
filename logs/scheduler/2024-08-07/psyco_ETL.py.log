@@ -1173,3 +1173,31 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'opendatasets'
 [2024-08-07T15:46:06.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/psyco_ETL.py
 [2024-08-07T15:46:06.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/psyco_ETL.py took 0.040 seconds
+[2024-08-07T15:46:36.771+0000] {processor.py:161} INFO - Started process (PID=8299) to work on /opt/airflow/dags/psyco_ETL.py
+[2024-08-07T15:46:36.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/psyco_ETL.py for tasks to queue
+[2024-08-07T15:46:36.774+0000] {logging_mixin.py:188} INFO - [2024-08-07T15:46:36.773+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/psyco_ETL.py
+[2024-08-07T15:46:36.777+0000] {logging_mixin.py:188} INFO - [2024-08-07T15:46:36.776+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/psyco_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/psyco_ETL.py", line 5, in <module>
+    import opendatasets as od
+ModuleNotFoundError: No module named 'opendatasets'
+[2024-08-07T15:46:36.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/psyco_ETL.py
+[2024-08-07T15:46:36.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/psyco_ETL.py took 0.029 seconds
+[2024-08-07T15:47:07.496+0000] {processor.py:161} INFO - Started process (PID=8358) to work on /opt/airflow/dags/psyco_ETL.py
+[2024-08-07T15:47:07.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/psyco_ETL.py for tasks to queue
+[2024-08-07T15:47:07.499+0000] {logging_mixin.py:188} INFO - [2024-08-07T15:47:07.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/psyco_ETL.py
+[2024-08-07T15:47:07.502+0000] {logging_mixin.py:188} INFO - [2024-08-07T15:47:07.501+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/psyco_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/psyco_ETL.py", line 5, in <module>
+    import opendatasets as od
+ModuleNotFoundError: No module named 'opendatasets'
+[2024-08-07T15:47:07.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/psyco_ETL.py
+[2024-08-07T15:47:07.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/psyco_ETL.py took 0.027 seconds
