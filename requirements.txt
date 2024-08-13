@@ -1,3 +1,4 @@
 opendatasets
 pandas
 kaggle
+ucimlrepo
